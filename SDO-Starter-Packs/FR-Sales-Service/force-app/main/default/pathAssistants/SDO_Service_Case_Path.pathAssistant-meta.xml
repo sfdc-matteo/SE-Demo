@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Case</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Service - Case Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Reason</fieldNames>
+        <fieldNames>SDO_Service_Close_Summary__c</fieldNames>
+        <info>&lt;p&gt;&amp;#127881; Félicitations pour la clôture de la requête !&lt;/p&gt;</info>
+        <picklistValueName>Closed</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;Examinez l&amp;#39;historique de la requête pour comprendre le problème et le motif de l&amp;#39;escalade.&lt;/li&gt;&lt;li&gt;Résolvez le problème et contactez le client pour lui communiquer la solution.&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Escalated</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>OwnerId</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;Attribuez la requête à une file d&amp;#39;attente (Queue) de manière appropriée.&lt;/li&gt;&lt;li&gt;Passez en mode &amp;quot;Disponible&amp;quot; dans l&amp;#39;Omni-Channel pour accepter de nouveaux dossiers.&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;Les accords de niveau de service (SLA) de la requête sont suspendus jusqu&amp;#39;à la réception d&amp;#39;une réponse.&lt;/li&gt;&lt;li&gt;Selon la priorité de la requête, vous devriez effectuer une relance après 2 jours d&amp;#39;inactivité.&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Waiting on Customer</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Type</fieldNames>
+        <fieldNames>SDO_Sub_Type__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;Examinez les détails de la requête entrante pour renseigner les champs de base.&lt;/li&gt;&lt;li&gt;Consultez les jalons (Milestones) pour connaître les prochaines étapes et les attentes.&lt;/li&gt;&lt;li&gt;Utilisez la base de connaissances (Knowledge) pour trouver des réponses à la demande du client.&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Working</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>SDO_Service_Case</recordTypeName>
+</PathAssistant>

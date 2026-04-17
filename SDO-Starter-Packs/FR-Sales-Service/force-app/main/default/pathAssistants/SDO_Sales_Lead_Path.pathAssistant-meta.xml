@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Lead</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Sales - Lead Path</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Rendez-vous sur la fiche Compte de cette piste et commencez à travailler !&lt;/p&gt;</info>
+        <picklistValueName>Converted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Title</fieldNames>
+        <fieldNames>Company</fieldNames>
+        <fieldNames>Phone</fieldNames>
+        <fieldNames>Email</fieldNames>
+        <info>&lt;p&gt;&lt;strong&gt;Recherchez et contactez votre nouvelle piste rapidement.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Effectuez des recherches sur votre piste en ligne.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Consultez leur site web pour comprendre leur activité et leur secteur d&amp;#39;activité.&lt;/li&gt;&lt;li&gt;Recherchez-les sur les réseaux sociaux pour déterminer la meilleure approche de prise de contact.&lt;/li&gt;&lt;li&gt;Contactez une nouvelle piste dès que possible.&lt;/li&gt;&lt;li&gt;Plus vous les contactez tôt, plus la probabilité de les convertir en client est élevée.&lt;/li&gt;&lt;li&gt;Vérifiez que leurs coordonnées sont exactes.&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>SDO_Sales_Lead_Total__c</fieldNames>
+        <info>&lt;p&gt;&lt;strong&gt;Si la piste est qualifiée, convertissez-la en Compte, Contact et Opportunité.&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Cela permet d&amp;#39;établir le contact comme un prospect légitime et de le distinguer des pistes générales.&lt;/li&gt;&lt;li&gt;Si la piste n&amp;#39;est pas qualifiée pour le moment, mais pourrait l&amp;#39;être un jour, cochez la case &lt;strong&gt;&amp;quot;Ajouter à la campagne de maturation&amp;quot;&lt;/strong&gt; afin que l&amp;#39;équipe marketing puisse garder le lien.&lt;/li&gt;&lt;li&gt;Si la piste n&amp;#39;est pas qualifiée et ne le sera jamais, ne faites rien. Ces pistes seront archivées au bout d&amp;#39;un an.&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Qualified</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>SDO_Sales_Know_Decision_Maker__c</fieldNames>
+        <fieldNames>SDO_Sales_Project_Defined__c</fieldNames>
+        <fieldNames>SDO_Sales_Has_Budget__c</fieldNames>
+        <fieldNames>SDO_Sales_Decision_Timeframe__c</fieldNames>
+        <info>&lt;p&gt;&lt;strong&gt;Vérifiez les informations de contact et faites progresser votre piste.&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Si vous contactez votre piste par téléphone, assurez-vous d&amp;#39;envoyer immédiatement un e-mail de remerciement.&lt;/li&gt;&lt;li&gt;Si vous contactez votre piste par e-mail et qu&amp;#39;elle répond rapidement, enchaînez immédiatement par un appel téléphonique.&lt;/li&gt;&lt;li&gt;Remplissez les champs de scoring pour déterminer s&amp;#39;il s&amp;#39;agit d&amp;#39;un prospect pertinent.&lt;/li&gt;&lt;li&gt;Répétez votre argumentaire et vos questions de qualification pour paraître confiant et rendre la conversation plus naturelle.&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Working</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>SDO_Lead_Default</recordTypeName>
+</PathAssistant>

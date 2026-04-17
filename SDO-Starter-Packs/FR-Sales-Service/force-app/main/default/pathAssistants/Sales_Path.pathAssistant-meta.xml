@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>Sales Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>SDO_Sales_Reason_Lost__c</fieldNames>
+        <fieldNames>SDO_Sales_Winning_Competitor__c</fieldNames>
+        <info>&lt;p&gt;&lt;strong&gt;Révisez vos techniques pour augmenter vos futures victoires.&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Qu’est-ce qui a contribué à la perte de cette opportunité ?&lt;/li&gt;&lt;li&gt;Que devons-nous faire différemment pour améliorer nos chances de gagner ?&lt;/li&gt;&lt;li&gt;Programmez une tâche ou un événement de suivi pour ce compte.&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Closed Lost</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>SDO_Sales_Project_Manager_Contact__c</fieldNames>
+        <info>&lt;img alt=&quot;User-added image&quot; src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS57WBzpmJ4wbuNv-nRXx8N5I7DErBryALQefSFF-p_8MEjnoBp&quot;&gt;&lt;/img&gt;</info>
+        <picklistValueName>Closed Won</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>SDO_Sales_Competitor__c</fieldNames>
+        <fieldNames>NextStep</fieldNames>
+        <info>&lt;p&gt;&lt;strong&gt;Comprenez les besoins métier et les critères de décision.&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Pourquoi nos solutions sont-elles adaptées à leurs besoins ?&lt;/li&gt;&lt;li&gt;En quoi nos solutions sont-elles meilleures que celles de nos concurrents ?&lt;/li&gt;&lt;li&gt;Dans quelle mesure nos solutions sont-elles évolutives pour eux ?&lt;/li&gt;&lt;li&gt;Quelles ressources sont disponibles pour mettre en œuvre les solutions ?&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Discovery</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>ExpectedRevenue</fieldNames>
+        <fieldNames>SDO_Sales_Contract_Terms__c</fieldNames>
+        <info>&lt;p&gt;&lt;strong&gt;Négociez la valeur et levez les objections.&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Avez-vous confirmé que tous les décideurs clés sont d&amp;#39;accord ?&lt;/li&gt;&lt;li&gt;Avez-vous proposé une remise ou une autre incitation tarifaire ?&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Negotiation</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>SDO_Sales_Complete_ROI_Analysis__c</fieldNames>
+        <fieldNames>NextStep</fieldNames>
+        <info>&lt;p&gt;&lt;strong&gt;Présentez la solution et comprenez le processus d&amp;#39;achat.&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Où se situent-ils dans leur cycle d&amp;#39;achat ?&lt;/li&gt;&lt;li&gt;Quel est le processus pour générer les bons de commande ?&lt;/li&gt;&lt;li&gt;Qui sont les décideurs clés ? Les avez-vous ajoutés à l&amp;#39;opportunité ?&lt;/li&gt;&lt;li&gt;Comment pouvez-vous communiquer la valeur de nos solutions à ces décideurs ?&lt;/li&gt;&lt;li&gt;Où en êtes-vous dans la quantification du ROI avec eux ?&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Proposal/Quote</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>SDO_Sales_Project_Budgeted__c</fieldNames>
+        <fieldNames>NextStep</fieldNames>
+        <info>&lt;p&gt;&lt;strong&gt;Qualifiez l&amp;#39;opportunité et confirmez le budget.&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Quelle est leur activité ?&lt;/li&gt;&lt;li&gt;Quels problèmes cherchent-ils à résoudre ?&lt;/li&gt;&lt;li&gt;En quoi la résolution de ces problèmes les aide-t-elle ?&lt;/li&gt;&lt;li&gt;Pourquoi le timing est-il favorable pour eux ?&lt;/li&gt;&lt;li&gt;Quel est leur budget ?&lt;/li&gt;&lt;li&gt;Quelles autres solutions envisagent-ils ?&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Qualification</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>SimpleOpportunity</recordTypeName>
+</PathAssistant>
