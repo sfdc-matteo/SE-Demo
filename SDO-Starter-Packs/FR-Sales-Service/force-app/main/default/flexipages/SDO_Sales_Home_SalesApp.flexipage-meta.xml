@@ -198,19 +198,19 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>activitiesDescription1</name>
-                    <value>tasks completed</value>
+                    <value>Tâches Complétées</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>activitiesDescription2</name>
-                    <value>calls logged</value>
+                    <value>Appels</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>activitiesDescription3</name>
-                    <value>emails sent</value>
+                    <value>Emails Envoyés</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>activitiesDescription4</name>
-                    <value>events logged</value>
+                    <value>Événements</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>activityIcon1</name>
@@ -238,11 +238,11 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>kpiTitle1</name>
-                    <value>Deals Won</value>
+                    <value>Opportunités Gagnées</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>kpiTitle2</name>
-                    <value>Deals Lost</value>
+                    <value>Opportunités Perdues</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>kpiValue1</name>
@@ -286,7 +286,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>title</name>
-                    <value>Activity Scorecard - Last 30 Days</value>
+                    <value>Mes Activités - 30 Derniers Jours</value>
                 </componentInstanceProperties>
                 <componentName>SDO_Service_ActivityScorecardComponent</componentName>
                 <identifier>c_SDO_Service_ActivityScorecardComponent</identifier>
