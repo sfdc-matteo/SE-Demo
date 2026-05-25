@@ -387,13 +387,6 @@
         <relatedList>OrderSummaries</relatedList>
     </relatedLists>
     <relatedLists>
-        <fields>QUOTE.QUOTENUMBER</fields>
-        <fields>QUOTE.NAME</fields>
-        <fields>QUOTE.TOTALPRICE</fields>
-        <fields>QUOTE.EXPIRATIONDATE</fields>
-        <relatedList>RelatedQuoteList</relatedList>
-    </relatedLists>
-    <relatedLists>
         <excludeButtons>DataDotComGetContactsMultiAddAction</excludeButtons>
         <fields>CONTACT.FULL_NAME</fields>
         <fields>CONTACT.TITLE</fields>
