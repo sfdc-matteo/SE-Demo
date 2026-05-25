@@ -80,6 +80,15 @@
         <type>Flexipage</type>
         <pageOrSobjectType>Contact</pageOrSobjectType>
     </actionOverrides>
+        <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>SDO_Account_Default</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+    </actionOverrides>
     <brand>
         <headerColor>#4592DA</headerColor>
         <logo>SDO_Sales_App_Icon</logo>
@@ -96,13 +105,12 @@
     <label>Sales</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
-    <tabs>Tableau_Insights</tabs>
-    <tabs>standard-Account</tabs>
-    <tabs>standard-Contact</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Opportunity</tabs>
-    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
     <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>SDO_Sales_App_UtilityBar</utilityBar>
 </CustomApplication>
